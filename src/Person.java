@@ -8,6 +8,7 @@ public class Person {
 		this.job = new Job();
 		this.education = new Education();
 		job.setSalary(1000L);
+		job.setRole("Some role");
 		String s[]=new String [10];
 		s[1]=new String("School 1");
 		s[2]=new String("School 2");
